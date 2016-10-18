@@ -16,14 +16,12 @@ public class Consumo {
     litros=0;
     vMed=0;
     pGas=0;
-    tempo=0;
 }
-           public Consumo(float km1,float l,float v , float p, float t){
+           public Consumo(float km1,float l,float v , float p){
                km=km1;
                litros=l;
                vMed=v;
                pGas=p;
-               tempo=t;
            }
     public float getTempo(){
     float tempo;

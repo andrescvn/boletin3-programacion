@@ -19,7 +19,7 @@ public class Consume {
         Consumo consumo1= new Consumo ();
         consumo1.setLitros(50f);
         consumo1.setPGas(1.57f);
-        Consumo consumo2= new Consumo (43f ,3f ,57f,6f,2f);
+        Consumo consumo2= new Consumo (43f ,3f ,57f,6f);
         consumo2.consumoMedio ();
         consumo2.setLitros(7);
         consumo2.amosar();
