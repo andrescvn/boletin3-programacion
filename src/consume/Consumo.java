@@ -26,6 +26,8 @@ public class Consumo {
                tempo=t;
            }
     public float getTempo(){
+    float tempo;
+        tempo=km/vMed;
         return tempo;
    
     }
